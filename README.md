@@ -9,7 +9,7 @@ Below is an early example of my code.
 
 ![alt text](Images/20241217_142906.jpg)
 
-After testing the code I ended up having to make several revisions, including adding a way for the robot to back up since I found there were instances where it can get stuck. On top of this I found that the speed of the robot would change how reliable its object avoidence is, with the faster it goes, the worse it manages to move out of the way of objects, so I ended up setting the motor's rpm to 50. Overall, this process went much smoother than I expected it to.
+After testing the code I ended up having to make several revisions, including adding a way for the robot to back up since I found there were instances where it can get stuck. On top of this I found that the speed of the robot would change how reliable its object avoidence is, with the faster it goes, the worse it manages to move out of the way of objects, so I ended up setting the motor's rpm to 50. Overall, this process went much smoother than I expected it to. The only major component that I was unable to implement was a way to stop the robot using a button on the pi-top itself instead of remotely since I could not get the code to work, because of this, the robot can only be stopped using the remote desktop on a laptop or other device.
 
 # Final Design
 
